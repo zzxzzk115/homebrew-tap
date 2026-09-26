@@ -1,9 +1,9 @@
 cask "omnilyrics" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.4.1"
-  sha256 arm:   "6b0451a476855a56a33462be9c1bb75f09d00116f01bbafabb990b00728171da",
-         intel: "389e8a2ddfe0ac4e9be1aa90334e76ccbd5639d6fe92eeb59ca1eaeadfa87a01"
+  version "0.4.2"
+  sha256 arm:   "528e2f7d036e2207fffdc1205e357daf76d708bfafce8bc4c3279397e70b675c",
+         intel: "159c1d1ccdd05464f5575519c02c3347517575f8cf54edd4f888b6b17b216f11"
 
   url "https://github.com/zzxzzk115/OmniLyrics/releases/download/v#{version}/omnilyrics-gui-osx-#{arch}-signed.zip"
   name "OmniLyrics"
